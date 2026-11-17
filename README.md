@@ -7,11 +7,19 @@ needs no database.
 
 ## Run it
 
+Get Erlang and Elixir with devenv or with mise, then start the app.
+
 ```sh
-direnv allow        # or: devenv shell
+direnv allow        # devenv (or: devenv shell)
+mise install        # mise (or asdf), from .tool-versions
+
 mix setup
 mix phx.server      # http://localhost:4000
 ```
+
+The two environments give the same versions: Erlang/OTP 29.1.2 and Elixir
+1.20.5. If you change a version, change it in `devenv.nix` and in
+`.tool-versions`.
 
 ## How the bento layout works
 
