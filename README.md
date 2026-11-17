@@ -5,6 +5,11 @@ the tiles have different sizes) with [Cinder](https://hexdocs.pm/cinder) and
 [Ash](https://hexdocs.pm/ash). The data is in an Ash ETS resource, so the app
 needs no database.
 
+![The album bento page with its filters, sort controls, search, and dark theme in use](docs/demo.gif)
+
+The demo shows the popularity filter (smash, cult, hit), the genre filter, the
+sort by streams, the search, and the dark theme.
+
 ## Run it
 
 Get Erlang and Elixir with devenv or with mise, then start the app.
